@@ -1,1 +1,161 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Web Design Projects</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    .about {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .about p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+    .project-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .project {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      max-width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+    }
+
+    .project img {
+      width: 100%;
+      display: block;
+    }
+
+    .project-info {
+      padding: 1rem;
+    }
+
+    .project-info h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.2rem;
+      color: #2c3e50;
+    }
+
+    .project-info a {
+      text-decoration: none;
+      color: #3498db;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #34495e;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1># Responsive-web-design-projects</h1>
+    <p>Aspiring web developer learning through freeCodeCamp, HTML, CSS, JavaScript</p>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I'm an aspiring web developer passionate about building beautiful, user-friendly websites and applications. This portfolio showcases my responsive web design projects built using HTML, CSS, and JavaScript through the freeCodeCamp curriculum. I'm constantly learning and aiming to grow in both frontend and backend development.
+      </p>
+    </section>
+
+    <section class="project-gallery">
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Tribute Page" />
+        <div class="project-info">
+          <h3>Tribute Page</h3>
+          <a href="https://codepen.io/yourprofile/pen/tribute">View Project</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Survey Form" />
+        <div class="project-info">
+          <h3>Survey Form</h3>
+          <a href="https://codepen.io/yourprofile/pen/survey">View Project</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Product Landing Page" />
+        <div class="project-info">
+          <h3>Product Landing Page</h3>
+          <a href="https://codepen.io/yourprofile/pen/product">View Project</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Technical Documentation" />
+        <div class="project-info">
+          <h3>Technical Documentation</h3>
+          <a href="https://codepen.io/yourprofile/pen/documentation">View Project</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Portfolio Page" />
+        <div class="project-info">
+          <h3>Portfolio Page</h3>
+          <a href="https://codepen.io/yourprofile/pen/portfolio">View Project</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name | Built with 💻 + ☕</p>
+  </footer>
+</body>
+</html>
